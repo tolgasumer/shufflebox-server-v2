@@ -45,7 +45,7 @@ const db = firebase.firestore();
 
 // init redis
 const Redis = require("ioredis");
-const redisClient = new Redis("redis://cache");
+const redisClient = new Redis(process.env.REDIS_URL);
 const JSONCache = require('redis-json');
 const redisJson = new JSONCache(redisClient, {
     prefix: 'votingsession:'
