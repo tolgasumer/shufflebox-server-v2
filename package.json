@@ -16,7 +16,7 @@
     "express": "^4.17.1",
     "firebase": "^6.2.3",
     "ioredis": "^4.10.0",
-    "redis-json": "^2.2.2",
+    "redis-json": "^6.0.3",
     "spotify-web-api-node": "^4.0.0"
   }
 }
